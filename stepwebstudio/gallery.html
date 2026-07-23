@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Gallery | Step Web Studio California</title>
+<meta name="description" content="View Step Web Studio's portfolio of California web design and e-commerce projects. See how we've helped businesses succeed online.">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700;900&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <img src="F:\webez\stepwebstudio\logo.png" alt="Step Web Studio Logo">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown"><a href="services.html">Services ▾</a>
+        <ul class="dropdown-menu"><li><a href="websites.html">Websites</a></li><li><a href="ecommerce.html">Virtual Stores</a></li><li><a href="seo.html">SEO Optimization</a></li></ul>
+      </li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn-nav">Get a Quote</a>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="label-tag">Our Portfolio</span>
+    <h1>Projects We're Proud<br>to <span class="accent">Show Off</span></h1>
+    <p>A selection of websites and virtual stores we've built for California businesses — each one designed to convert and perform.</p>
+  </div>
+</section>
+
+<!-- Filter -->
+<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:48px" class="fade-in" id="filterBtns">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="website">Websites</button>
+      <button class="filter-btn" data-filter="ecommerce">Virtual Stores</button>
+      <button class="filter-btn" data-filter="seo">SEO Projects</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="gallery-grid fade-in">
+      <div class="gallery-item" data-type="website">
+        <div class="gallery-mock"><div class="gallery-mock-bar"></div><div class="gallery-mock-line"></div><div class="gallery-mock-line"></div></div>
+        <div class="gallery-label">LA Restaurant — Website</div>
+      </div>
+      <div class="gallery-item" data-type="ecommerce">
+        <div class="gallery-mock"><div class="gallery-mock-bar"></div><div class="gallery-mock-line"></div><div class="gallery-mock-line"></div></div>
+        <div class="gallery-label">SF Boutique — Virtual Store</div>
+      </div>
+      <div class="gallery-item" data-type="seo">
+        <div class="gallery-mock"><div class="gallery-mock-bar"></div><div class="gallery-mock-line"></div><div class="gallery-mock-line"></div></div>
+        <div class="gallery-label">San Diego Dental — SEO</div>
+      </div>
+      <div class="gallery-item" data-type="ecommerce">
+        <div class="gallery-mock"><div class="gallery-mock-bar"></div><div class="gallery-mock-line"></div><div class="gallery-mock-line"></div></div>
+        <div class="gallery-label">OC Fashion Brand — Virtual Store</div>
+      </div>
+      <div class="gallery-item" data-type="website">
+        <div class="gallery-mock"><div class="gallery-mock-bar"></div><div class="gallery-mock-line"></div><div class="gallery-mock-line"></div></div>
+        <div class="gallery-label">Bay Area Tech Startup</div>
+      </div>
+      <div class="gallery-item" data-type="website">
+        <div class="gallery-mock"><div class="gallery-mock-bar"></div><div class="gallery-mock-line"></div><div class="gallery-mock-line"></div></div>
+        <div class="gallery-label">Sacramento Law Firm</div>
+      </div>
+      <div class="gallery-item" data-type="ecommerce">
+        <div class="gallery-mock"><div class="gallery-mock-bar"></div><div class="gallery-mock-line"></div><div class="gallery-mock-line"></div></div>
+        <div class="gallery-label">Fresno Home Goods Store</div>
+      </div>
+      <div class="gallery-item" data-type="seo">
+        <div class="gallery-mock"><div class="gallery-mock-bar"></div><div class="gallery-mock-line"></div><div class="gallery-mock-line"></div></div>
+        <div class="gallery-label">Riverside Real Estate — SEO</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.filter-btn { background: var(--card-bg); border: 1px solid var(--border); color: var(--grey); padding: 10px 24px; border-radius: 100px; font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: var(--transition); }
+.filter-btn:hover, .filter-btn.active { background: var(--blue3); color: var(--white); border-color: var(--blue3); }
+</style>
+
+<section class="cta-banner">
+  <div class="container">
+    <h2>Ready to Join Our Portfolio?</h2>
+    <p>Let us build something amazing for your California business.</p>
+    <a href="contact.html" class="btn-primary large">Start Your Project</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+         <a href="index.html" class="nav-logo">
+      <img src="F:\webez\stepwebstudio\logo.png" alt="Step Web Studio Logo">
+    </a>
+        <p>California's trusted partner for web design, e-commerce development, and SEO optimization. We build websites that work as hard as you do.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="LinkedIn">LI</a>
+          <a href="#" aria-label="Twitter">TW</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="websites.html">Website Development</a></li>
+          <li><a href="ecommerce.html">Virtual Stores</a></li>
+          <li><a href="seo.html">SEO Optimization</a></li>
+          <li><a href="services.html">All Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul class="contact-info">
+          <li>📧 <a href="mailto:info@stepwebstudio.com">info@stepwebstudio.com</a></li>
+          <li>📞 <a href="tel:+1952342856">+1 952 342 856</a></li>
+          <li>📍 California, USA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Step Web Studio. All rights reserved. | Serving clients across California.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="main.js"></script>
+<script>
+const filterBtns = document.querySelectorAll('.filter-btn');
+const galleryItems = document.querySelectorAll('.gallery-item');
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    galleryItems.forEach(item => {
+      if (filter === 'all' || item.dataset.type === filter) {
+        item.style.display = 'flex';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>
