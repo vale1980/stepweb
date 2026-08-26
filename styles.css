@@ -450,7 +450,7 @@ padding-top: 60px;
 .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--blue3); box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
 .form-group textarea { resize: vertical; min-height: 120px; }
 .form-group select option { background: var(--white); color: var(--dark2)}
-.form-submit { width: 100%; background: var(--blue3); color: var(--white); border: none; padding: 16px; border-radius: var(--radius); font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 900; cursor: pointer; transition: var(--transition); letter-spacing: 0.05em; }
+.form-submit { width: 100%; background: var(--blue3); color: var(--white); border: none; padding: 16px; border-radius: var(--radius); font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: var(--transition); letter-spacing: 0.05em; }
 .form-submit:hover { background: var(--blue2); transform: translateY(-2px); box-shadow: 0 8px 20px var(--blue-glow); }
 
 /* =============================================
