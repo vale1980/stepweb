@@ -93,7 +93,7 @@ a { text-decoration: none; color: inherit; }
 .nav-container {
   max-width: 1200px; margin: 0 auto; padding: 0 0px;
   display: flex; align-items: center; gap: 0px;
-   background: var(--light)
+
 }
 
 .nav-logo { display: flex; align-items: center; gap: 0px; }
@@ -111,7 +111,7 @@ a { text-decoration: none; color: inherit; }
 /* Dropdown */
 .dropdown-menu {
   display: none; position: absolute; top: 100%; left: 0;
-  background: var(--dark2); border: 1px solid var(--border);
+  background: var(--light); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 8px; min-width: 180px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
