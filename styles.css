@@ -126,7 +126,7 @@ a { text-decoration: none; color: inherit; }
 }
 .btn-nav:hover { background: var(--blue2); transform: translateY(-2px); box-shadow: 0 8px 20px var(--blue-glow); }
 
-.hamburger { display: none; background: none; border: none; color: var(--white); font-size: 1.5rem; cursor: pointer; }
+.hamburger { display: none; background: none; border: none; color: var(--dark2); font-size: 1.5rem; cursor: pointer; }
 
 /* =============================================
    BUTTONS
