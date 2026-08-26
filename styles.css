@@ -610,7 +610,7 @@ padding-top: 60px;
   .team-grid { grid-template-columns: 1fr; }
    .hero-title { margin-bottom: 20px; font-size: 50px;}
    .hero-content { flex: 1; 
-padding-top: 30px;
+padding-top: 0px;
 }
 }
 
