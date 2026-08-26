@@ -599,7 +599,7 @@ padding-top: 60px;
 @media (max-width: 768px) {
   .nav-links { display: none; flex-direction: column; position: fixed; top: 70px; left: 0; right: 0; background: rgba(6,11,24,0.97); backdrop-filter: blur(20px); padding: 20px; border-bottom: 1px solid var(--border); }
   .nav-links.open { display: flex; }
-  .dropdown-menu { position: static; display: block; background: none; border: none; box-shadow: none; padding-left: 16px; }
+  .dropdown-menu { position: static; display: block; background: var(--light); border: none; box-shadow: none; padding-left: 16px; }
   .btn-nav { display: none; }
   .hamburger { display: block; margin-left: auto; }
   .footer-grid { grid-template-columns: 1fr; }
