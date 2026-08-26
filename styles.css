@@ -116,7 +116,7 @@ a { text-decoration: none; color: inherit; }
   box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
 .dropdown:hover .dropdown-menu { display: block; }
-.dropdown-menu li a { display: block; padding: 8px 14px; border-radius: 8px; font-size: 0.9rem; color: var(--grey); transition: var(--transition); }
+.dropdown-menu li a { display: block; padding: 8px 14px; border-radius: 8px; font-size: 0.9rem; color: var(--light); transition: var(--transition); }
 .dropdown-menu li a:hover { color: var(--white); background: rgba(37,99,235,0.15); }
 
 .btn-nav {
