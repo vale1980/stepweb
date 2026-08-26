@@ -93,6 +93,7 @@ a { text-decoration: none; color: inherit; }
 .nav-container {
   max-width: 1200px; margin: 0 auto; padding: 0 0px;
   display: flex; align-items: center; gap: 0px;
+   background: var(--light)
 }
 
 .nav-logo { display: flex; align-items: center; gap: 0px; }
