@@ -47,6 +47,7 @@ a { text-decoration: none; color: inherit; }
 .accent { color: var(--blue3); }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 .section { padding: 100px 0; background-color: rgb(227, 235, 255);}
+.section-white { padding: 100px 0; background-color: #fff}
 .dark-section { background: var(--dark2); }
 .dark-section h2{ color: var(--light); }
 .dark-section p{ color: var(--light); }
