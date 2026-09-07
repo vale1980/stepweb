@@ -530,12 +530,21 @@ padding-top: 60px;
    ============================================= */
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
 .about-img-block {
-  background: linear-gradient(135deg, var(--dark2), var(--dark3));
-  border: 1px solid var(--border); border-radius: var(--radius-lg);
+  /*background: linear-gradient(135deg, var(--dark2), var(--dark3)); 
+  border: 1px solid var(--border); border-radius: var(--radius-lg);*/
   aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center;
   font-size: 5rem;
   position: relative; overflow: hidden;
     width: 100%;
+}
+
+.about-img-block img {
+  border: 1px solid var(--border); border-radius: var(--radius-lg);
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
 }
 .about-img-block::after {
   content: ''; position: absolute; inset: 0;
