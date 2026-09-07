@@ -292,7 +292,7 @@ padding-top: 60px;
 }
 .metric-card:hover { border-color: var(--blue3); transform: scale(1.03); }
 .metric-icon { font-size: 1.8rem; }
-.metric-card strong { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--white); }
+.metric-card strong { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; font-weight: 700; color: var(--white); }
 .metric-card span { font-size: 1rem; color: var(--grey); }
 
 /* =============================================
