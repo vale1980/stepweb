@@ -644,6 +644,9 @@ padding-top: 60px;
    .hero-content { flex: 1; 
 padding-top: 0px;
 }
+     .why-visual {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Animations */
