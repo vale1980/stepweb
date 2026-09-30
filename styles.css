@@ -45,7 +45,7 @@ p { font-size: 1.1rem; color: var(--dark3); line-height: 1.75; }
 a { text-decoration: none; color: inherit; }
 
 .accent { color: var(--blue3); }
-.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.container { max-width: 1300px; margin: 0 auto; padding: 0 24px; }
 .section { padding: 100px 0; background-color: rgb(227, 235, 255);}
 .section-white { padding: 100px 0; background-color: #fff}
 .dark-section { background: var(--dark2); }
